@@ -1,0 +1,9 @@
+openpyxl
+missingno
+numpy
+pandas
+xgboost
+seaborn
+scikit-learn
+ipykernel
+matplotlib
