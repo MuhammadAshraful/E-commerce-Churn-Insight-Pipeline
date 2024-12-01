@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
 
 # Load the pre-trained model
-with open('pretrained_model.pkl', 'rb') as f:
+with open('lda_pretrained_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Route to display the input form
