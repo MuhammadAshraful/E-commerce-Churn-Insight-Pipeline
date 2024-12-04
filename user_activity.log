@@ -1,0 +1,11 @@
+2024-12-05 04:38:42,232 - {'timestamp': '2024-12-05 04:38:42', 'user_input':   Tenure PreferredLoginDevice CityTier WarehouseToHome  ... CouponUsed OrderCount DaySinceLastOrder CashbackAmount
+0      4         Mobile Phone        3               6  ...          1          1                 5            160
+
+[1 rows x 18 columns], 'prediction': array([0])}
+2024-12-05 04:38:42,273 - 127.0.0.1 - - [05/Dec/2024 04:38:42] "POST /predict HTTP/1.1" 200 -
+2024-12-05 04:41:37,993 - {'timestamp': '2024-12-05 04:41:37', 'user_input': {'Tenure': '0', 'PreferredLoginDevice': 'Phone', 'CityTier': '3', 'WarehouseToHome': '15', 'PreferredPaymentMode': 'Debit Card', 'Gender': 'Male', 'HourSpendOnApp': '2', 'NumberOfDeviceRegistered': '4', 'PreferedOrderCat': 'Laptop & Accessory', 'SatisfactionScore': '2', 'MaritalStatus': 'Single', 'NumberOfAddress': '8', 'Complain': '0', 'OrderAmountHikeFromlastYear': '23', 'CouponUsed': '0', 'OrderCount': '1', 'DaySinceLastOrder': '3', 'CashbackAmount': '134'}, 'prediction': array([0])}
+2024-12-05 04:41:37,995 - 127.0.0.1 - - [05/Dec/2024 04:41:37] "POST /predict HTTP/1.1" 200 -
+2024-12-05 04:41:43,436 - 127.0.0.1 - - [05/Dec/2024 04:41:43] "GET / HTTP/1.1" 200 -
+2024-12-05 04:42:49,302 - {'timestamp': '2024-12-05 04:42:49', 'user_input': {'Tenure': '0', 'PreferredLoginDevice': 'Mobile Phone', 'CityTier': '3', 'WarehouseToHome': '15', 'PreferredPaymentMode': 'Debit Card', 'Gender': 'Male', 'HourSpendOnApp': '3', 'NumberOfDeviceRegistered': '4', 'PreferedOrderCat': 'Laptop & Accessory', 'SatisfactionScore': '5', 'MaritalStatus': 'Single', 'NumberOfAddress': '9', 'Complain': '0', 'OrderAmountHikeFromlastYear': '11', 'CouponUsed': '0', 'OrderCount': '1', 'DaySinceLastOrder': '3', 'CashbackAmount': '160'}, 'prediction': array([1])}
+2024-12-05 04:42:49,303 - 127.0.0.1 - - [05/Dec/2024 04:42:49] "POST /predict HTTP/1.1" 200 -
+2024-12-05 04:42:52,484 - 127.0.0.1 - - [05/Dec/2024 04:42:52] "GET / HTTP/1.1" 200 -
