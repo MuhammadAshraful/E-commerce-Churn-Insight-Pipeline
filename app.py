@@ -3,6 +3,7 @@ import pickle
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from logger import log_data
+import csv
 
 app = Flask(__name__)
 
@@ -36,7 +37,12 @@ def predict():
     testvariable= log_data()
 
     testvariable.log_user_input_and_prediction(user_input, prediction)
-   
+
+    # Example to write user data to CSV
+    with open('user_data.csv', mode='a', newline='') as file:
+         writer = csv.writer(file)
+         writer.writerow(list(user_input.values()) + [prediction])
+         
 
     return render_template('result.html', prediction=prediction)
 
