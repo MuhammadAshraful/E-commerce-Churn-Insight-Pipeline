@@ -41,7 +41,9 @@ def predict():
     # Example to write user data to CSV
     with open('user_data.csv', mode='a', newline='') as file:
          writer = csv.writer(file)
-         writer.writerow(list(user_input.values()) + [prediction])
+         if file.tell() == 0:  # Checks if the file is empty
+            writer.writerow( list(user_input.keys()) + ["Prediction"])  # Header row
+         writer.writerow(list(user_input.values()) +[prediction[0]])
          
 
     return render_template('result.html', prediction=prediction)

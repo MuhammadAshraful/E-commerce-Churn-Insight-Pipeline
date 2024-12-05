@@ -1,5 +1,5 @@
-Tenure,PreferredLoginDevice,CityTier,WarehouseToHome,PreferredPaymentMode,Gender,HourSpendOnApp,NumberOfDeviceRegistered,PreferedOrderCat,SatisfactionScore,MaritalStatus,NumberOfAddress,Complain,OrderAmountHikeFromlastYear,CouponUsed,OrderCount,DaySinceLastOrder,CashbackAmount
-1
-Tenure,PreferredLoginDevice,CityTier,WarehouseToHome,PreferredPaymentMode,Gender,HourSpendOnApp,NumberOfDeviceRegistered,PreferedOrderCat,SatisfactionScore,MaritalStatus,NumberOfAddress,Complain,OrderAmountHikeFromlastYear,CouponUsed,OrderCount,DaySinceLastOrder,CashbackAmount
-0
-4,Mobile Phone,3,6,Debit Card,Female,2,3,Laptop & Accessory,5,Single,9,0,23,0,1,5,134,[0]
+Tenure,PreferredLoginDevice,CityTier,WarehouseToHome,PreferredPaymentMode,Gender,HourSpendOnApp,NumberOfDeviceRegistered,PreferedOrderCat,SatisfactionScore,MaritalStatus,NumberOfAddress,Complain,OrderAmountHikeFromlastYear,CouponUsed,OrderCount,DaySinceLastOrder,CashbackAmount,Prediction
+4,Mobile Phone,3,15,Debit Card,Male,2,4,Laptop & Accessory,5,Single,8,1,11,0,1,5,160,[1]
+99,Mobile Phone,3,15,Debit Card,Male,2,4,Laptop & Accessory,5,Single,8,1,11,0,1,5,160,[0]
+99,Mobile Phone,3,15,Debit Card,Male,2,4,Laptop & Accessory,5,Single,8,1,11,0,1,5,160,[0]
+60,Mobile Phone,3,15,Debit Card,Male,2,4,Laptop & Accessory,5,Single,8,1,11,0,1,5,160,0
